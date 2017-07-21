@@ -41,13 +41,13 @@
                             <li><a href="#">Main</a></li>
                             <li><a href="#">Apartments</a>
                                 <!--First Drop Down-->
-                                <ul >
+                                <ul style="z-index:5">
                                     <li style="background: #D0CABA;cursor:pointer"><a href="#" style="font-size:16px">Apartments1</a></li>
                                     <li style="background: #D0CABA;cursor:pointer"><a href="#" style="font-size:16px">Apartments2</a>
                                         <ul >
-                                            <li style="background: rgb(89, 214, 51)"><a href="#" style="font-size:17px; color:white">Apartments01</a></li>
-                                            <li style="background: rgb(89, 214, 51)"><a href="#" style="font-size:17px; color:white">Apartments02</a></li>
-                                            <li style="background: rgb(89, 214, 51)"><a href="#" style="font-size:17px; color:white">Apartments03</a></li>
+                                            <li style="background: #9FCB00"><a href="#" style="font-size:17px; color:white">Apartments01</a></li>
+                                            <li style="background: #9FCB00"><a href="#" style="font-size:17px; color:white">Apartments02</a></li>
+                                            <li style="background: #9FCB00"><a href="#" style="font-size:17px; color:white">Apartments03</a></li>
                                         </ul>
                                     </li>
                                     <li style="background: #D0CABA;cursor:pointer"><a href="#" style="border-bottom:none;font-size:16px" >Apartments3</a></li>
@@ -58,6 +58,12 @@
                             <li><a href="#">Contacts</a></li>
                         </ul>
                     </nav>
+                    <div class="frame">
+                        <div class="button" onclick="upLeft()" id="leftSlider">&#10094</div>
+                        <div class="button" onclick="upRight()" id="rightSlider">&#10095</div>
+                    </div>
+                    
+                    
                 </div>
                 <!--apartments-->
                 <div class="apartments">
